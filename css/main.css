@@ -1,0 +1,146 @@
+body {
+  width: 90%;
+  margin: 0 auto;
+
+}
+
+header {
+
+position: absolute;
+border-bottom: 4px groove #4d4b4b;
+position: relative;
+height: 100px;
+background-color: #fff;
+          }
+
+
+nav li a:hover {
+       text-decoration: overline;
+        text-decoration: underline;
+                }
+
+nav ul {
+    word-spacing: 30px;
+    float: right;
+    padding-top: 20px;
+}
+
+nav li  {
+    font-family:'Kameron', serif;
+    position: relative;
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+}
+
+/*LOGOGOGOGOGOGOGOLOGOGOGOG*/
+a       {text-decoration: none;
+         color:black;
+          }
+div.logo a:hover {
+        text-decoration: underline;
+}
+
+div.logo {padding-top: 15px;}
+
+div.logo span:first-child {
+  font-size: 40px;
+  color: rgb(250, 131, 192);
+      }
+
+div.logo span:nth-child(2) {
+      font-family: 'Lobster', cursive;
+      font-size: 40px;
+      padding-left: 10px;
+}
+
+/*LOGOS ARE TIGHT, BUT CHECK OUT THIS INTRO. NOT SURE IF THIS IS
+HOW THE OTHER CODER-BRUHS WRITE IT*/
+
+div.intro  {
+        position: relative;
+        margin-top: 100px;
+        text-align: center;
+        font-family: 'Kameron', serif;
+        font-size: 30px;
+        line-height: 10px;
+}
+div.intro span:first-child {
+      color: rgb(250, 131, 192);
+}
+
+#top {
+      font-weight: 900;
+}
+
+/* MAIN IMAGE*/
+
+ div.firstimage img {
+      width: 75%;
+      border-radius: 50px;
+      margin-top: -10px;
+
+}
+
+
+/* THE TWO PARAGRAPHS BELOW*/
+
+
+/*THE ABOUT ME SECTION*/
+section.me  {display:inline-block;
+      height: 150px;
+        width: 35%;
+        float:left;
+        margin-left: 75px;
+        line-height: 25px;
+
+
+}
+ section h1 span:first-child {
+
+font-family: 'Lobster', cursive;
+}
+
+
+
+/*WORK WORK WORK WORK WORK SECTION */
+
+section.work { height: 150px;
+      width: 35%;
+      float:right;
+      margin-right: 75px;
+      line-height: 25px;
+
+
+}
+
+
+
+
+
+/*  THE LITTLE BOXES WITH BORDERS AND TEXT ON THE BOTTOM*/
+
+div.pics img {
+        position: relative;
+        width: 20%;
+        height: 150px;
+        border-radius: 25px;
+        text-align: center;
+        border-bottom: 75px solid beige;
+        letter-spacing: -1px;
+
+      }
+
+
+div.pics ul {
+        margin: auto;
+        position: relative;
+        list-style-type: none;
+
+        width: 80%;
+}
+
+div.pics li {
+      
+}
