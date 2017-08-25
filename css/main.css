@@ -137,6 +137,7 @@ div.pics ul {
         margin: auto;
         position: relative;
         list-style-type: none;
+        display:inline-block;
 
         width: 80%;
 }
